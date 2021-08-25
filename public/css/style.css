@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,500;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;600;700;800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Raleway", sans-serif !important;
+  overflow-x: hidden !important;
+}
+
+a {
+  font-family: "Raleway", sans-serif !important;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="search"],
+input[type="password"],
+textarea {
+  -webkit-user-select: text;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Shippori Mincho", serif !important;
+  margin: 5px;
+  /* font-weight: bold !important; */
+
+  /* line-height: 85px; */
+  font-weight: bold !important;
+}
+
+.noSelect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* off canvas  */
+.uk-offcanvas-bar {
+  background-color: rgb(123, 123, 123) !important;
+  text-align: center;
+  justify-content: center;
+}
+
+.uk-offcanvas-bar li a {
+  color: rgb(255, 255, 255) !important;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+/* end off canvas */
+
+.navbarbrand {
+  display: none;
+}
+
+.uk-section-black {
+  background-color: black;
+}
+
+.uk-section {
+  padding: 0 !important;
+}
+
+.uk-section-auto {
+  padding: 0 !important;
+}
+
+.uk-offcanvas-close {
+  color: red;
+  background-color: rgb(224, 224, 224);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+/* parallax slider */
+
+.parallaxslider img {
+  background: #000;
+  background-size: cover;
+  object-fit: cover;
+  opacity: 0.6;
+}
+
+.parallaxslider h2 {
+  font-size: 45px !important;
+}
+
+.parallaxslider p {
+  font-size: 26px !important;
+  color: white !important;
+  padding: 4px;
+  padding-left: 200px;
+  padding-right: 200px;
+  margin-top: 4px;
+}
+
+/* what we offer */
+.what-we-offer h1 {
+  font-size: 65px;
+  line-height: 70px;
+  margin-top: 80px;
+}
+
+.uk-card {
+  border-radius: 5px !important;
+  -webkit-border-radius: 5px !important;
+  -moz-border-radius: 5px !important;
+  -ms-border-radius: 5px !important;
+  -o-border-radius: 5px !important;
+}
+
+.pageimg img {
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 978px) {
+  .navbarToggler {
+    display: none;
+  }
+
+  #offcanvas-push {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 978px) {
+  .navs {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .parallaxslider h2 {
+    font-size: 28px !important;
+    line-height: 29px !important;
+  }
+  .parallaxslider h1 {
+    font-size: 28px !important;
+    line-height: 29px !important;
+  }
+
+  .parallaxslider p {
+    font-size: 15px !important;
+    color: white !important;
+    padding: 2px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 2px;
+  }
+
+  .what-we-offer h1 {
+    font-size: 35px;
+    line-height: 40px;
+    margin-top: 80px;
+  }
+}
