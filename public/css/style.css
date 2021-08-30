@@ -175,3 +175,14 @@ h6 {
     margin-top: 80px;
   }
 }
+
+/* contact us */
+
+.contactus img{
+  height: 500px;
+  background-size: cover;
+  object-fit: cover;
+  background-position: center;
+  width: 100%;
+}
+

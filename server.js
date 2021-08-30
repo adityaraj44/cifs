@@ -36,6 +36,13 @@ app.set("view engine", "ejs");
 
 // routes
 app.use("/", require("./routes/index"));
+app.use("/contactus", require("./routes/contact"));
+app.use("/aboutus", require("./routes/about"));
+app.use("/clients", require("./routes/clients"));
+app.use("/certification", require("./routes/certification"));
+app.use("/awards", require("./routes/awards"));
+app.use("/current", require("./routes/current"));
+
 
 const port = process.env.PORT || 5000;
 app.listen(port, () => {
