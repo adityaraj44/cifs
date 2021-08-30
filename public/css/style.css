@@ -133,6 +133,13 @@ h6 {
   background-size: cover;
   object-fit: cover;
 }
+.contactus img{
+  height: 500px;
+  background-size: cover;
+  object-fit: cover;
+  background-position: center;
+  width: 100%;
+}
 
 @media screen and (min-width: 978px) {
   .navbarToggler {
@@ -174,15 +181,13 @@ h6 {
     line-height: 40px;
     margin-top: 80px;
   }
+  .contactus img{
+    height: 250px;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+    width: 100%;
+  }
 }
 
-/* contact us */
-
-.contactus img{
-  height: 500px;
-  background-size: cover;
-  object-fit: cover;
-  background-position: center;
-  width: 100%;
-}
 
