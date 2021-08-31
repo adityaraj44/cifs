@@ -142,11 +142,28 @@ h6 {
 }
 
 .contactus h2 {
-  font-size: 65px !important;
+  font-size: 85px !important;
 }
 
 .homepage-card .uk-card-body {
   height: 300px;
+}
+
+.info-link {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.uk-card-contact {
+  border-bottom: 4px solid rgb(20, 191, 54);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 
 footer {
