@@ -17,13 +17,13 @@ a {
   font-family: "Raleway", sans-serif !important;
 }
 
-input[type="text"],
+/* input[type="text"],
 input[type="email"],
 input[type="search"],
 input[type="password"],
 textarea {
   -webkit-user-select: text;
-}
+} */
 
 h1,
 h2,
@@ -70,6 +70,10 @@ h6 {
 
 .uk-section-black {
   background-color: black;
+}
+
+.uk-section-secondary-light {
+  background-color: rgb(56, 56, 56);
 }
 
 .uk-section {
@@ -119,6 +123,18 @@ h6 {
   margin-top: 80px;
 }
 
+.our-clients h1 {
+  font-size: 65px;
+  line-height: 70px;
+  margin-top: 80px;
+}
+
+.our-clients ul li img {
+  height: 200px;
+  background-size: cover;
+  object-fit: cover;
+}
+
 .uk-card {
   border-radius: 5px !important;
   -webkit-border-radius: 5px !important;
@@ -164,6 +180,14 @@ h6 {
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
+}
+.icons-footer span {
+  color: rgb(223, 153, 25);
+}
+
+.useful-links ul li a {
+  font-size: 20px;
+  text-transform: capitalize;
 }
 
 footer {
@@ -212,6 +236,13 @@ footer {
     line-height: 40px;
     margin-top: 80px;
   }
+
+  .our-clients h1 {
+    font-size: 35px;
+    line-height: 40px;
+    margin-top: 80px;
+  }
+
   .contactus img {
     height: 250px;
     background-size: cover;
