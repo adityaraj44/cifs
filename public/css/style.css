@@ -182,12 +182,13 @@ h6 {
 }
 
 .certificate-card img {
-  height: 300px;
+  height: 600px;
   width: 100%;
+  background-position: top;
   background-size: cover;
   object-fit: cover;
 }
-.certificate-card .uk-card-body {
+.certificate-card .uk-card-footer {
   height: 120px;
 }
 
