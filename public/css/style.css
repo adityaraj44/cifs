@@ -135,6 +135,20 @@ h6 {
   object-fit: cover;
 }
 
+/* about-us section */
+
+.about-us {
+  min-height: 100vh;
+  padding: 80px !important;
+  border-bottom: 20px solid rgb(163, 26, 26);
+}
+
+.about-us h1 {
+  font-size: 65px;
+  line-height: 70px;
+  margin-top: 80px;
+}
+
 .uk-card {
   border-radius: 5px !important;
   -webkit-border-radius: 5px !important;
@@ -238,6 +252,12 @@ footer {
   }
 
   .our-clients h1 {
+    font-size: 35px;
+    line-height: 40px;
+    margin-top: 80px;
+  }
+
+  .about-us h1 {
     font-size: 35px;
     line-height: 40px;
     margin-top: 80px;
