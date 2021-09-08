@@ -68,6 +68,12 @@ h6 {
   display: none;
 }
 
+.logo-img {
+  width: 50px;
+  height: 50px;
+  margin: 15px;
+}
+
 .uk-section-black {
   background-color: black;
 }
@@ -149,6 +155,42 @@ h6 {
   margin-top: 80px;
 }
 
+/* clients section */
+
+.clients-section h1 {
+  font-size: 65px;
+  line-height: 70px;
+  margin-top: 80px;
+}
+
+.clients-section img {
+  height: 250px;
+  width: 100%;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.uk-card-clients {
+  margin: 50px 40px 50px 40px;
+}
+
+/* certificates sectiom */
+.certificate-section h1 {
+  font-size: 65px;
+  line-height: 70px;
+  margin-top: 80px;
+}
+
+.certificate-card img {
+  height: 300px;
+  width: 100%;
+  background-size: cover;
+  object-fit: cover;
+}
+.certificate-card .uk-card-body {
+  height: 120px;
+}
+
 .uk-card {
   border-radius: 5px !important;
   -webkit-border-radius: 5px !important;
@@ -215,6 +257,10 @@ footer {
     display: none;
   }
 
+  .mobile-view-logo {
+    display: none;
+  }
+
   #offcanvas-push {
     display: none;
   }
@@ -274,5 +320,17 @@ footer {
   .contactus h2 {
     font-size: 40px !important;
     line-height: 40px !important;
+  }
+
+  .certificate-section h1 {
+    font-size: 35px;
+    line-height: 40px;
+    margin-top: 80px;
+  }
+
+  .clients-section h1 {
+    font-size: 35px;
+    line-height: 40px;
+    margin-top: 80px;
   }
 }

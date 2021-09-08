@@ -12,4 +12,12 @@ router.get("/", async (req, res) => {
   }
 });
 
+router.get("/home", async (req, res) => {
+  try {
+    res.redirect("/");
+  } catch (error) {
+    res.send("ERROR");
+  }
+});
+
 module.exports = router;
