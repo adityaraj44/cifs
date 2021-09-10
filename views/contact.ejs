@@ -8,7 +8,7 @@
   >
     <ul class="uk-slideshow-items">
       <li>
-        <img src="/img/contact.jpg" alt="" uk-cover />
+        <img src="/img/contactus.jpg" alt="" uk-cover />
         <div class="uk-position-center uk-position-small uk-text-center">
           <h2 uk-slideshow-parallax="y: -50,0,0; opacity: 1,1,0">CONTACT US</h2>
         </div>
@@ -118,6 +118,88 @@
 </div>
 
 <!-- contact us form -->
+<div class="uk-section uk-section-secondary uk-light contact-form-section">
+  <div class="uk-container">
+    <h1 class="uk-text-uppercase uk-text-center uk-margin-top-large">
+      Contact us
+    </h1>
+    <hr />
+    <div
+      class="
+        uk-child-width-1-1
+        uk-child-width-1-1@s
+        uk-grid-small
+        uk-margin-large-top
+        uk-margin-large-bottom
+      "
+      uk-grid
+    >
+      <div class="contact-form-card">
+        <div class="uk-card uk-card-secondary uk-card-hover">
+          <div class="uk-card-body">
+            <form action="">
+              <div class="uk-form-stacked">
+                <div class="uk-margin-small">
+                  <div class="uk-form-control uk-margin-medium-top">
+                    <input
+                      required
+                      type="text"
+                      name="name"
+                      id="name"
+                      placeholder="Your name*"
+                      class="uk-input uk-form-large noSelect"
+                    />
+                  </div>
+                  <div class="uk-form-control uk-margin-medium-top">
+                    <input
+                      required
+                      type="email"
+                      name="email"
+                      id="email"
+                      required
+                      placeholder="Your Email*"
+                      class="uk-input uk-form-large noSelect"
+                    />
+                  </div>
+                  <div class="uk-form-control uk-margin-medium-top">
+                    <input
+                      required
+                      type="url"
+                      name="website"
+                      id="website"
+                      required
+                      placeholder="Website*"
+                      class="uk-input uk-form-large noSelect"
+                    />
+                  </div>
+                  <div class="uk-form-control uk-margin-medium-top">
+                    <textarea
+                      required
+                      name="message"
+                      id="message"
+                      class="uk-textarea"
+                      placeholder="Your message*"
+                      rows="8"
+                    ></textarea>
+                  </div>
+
+                  <div class="uk-form-control uk-margin-medium-top">
+                    <button
+                      type="submit"
+                      class="uk-button uk-button-danger noSelect uk-width-1-1"
+                    >
+                      Submit
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 <!-- bottom section -->
 <%- include('./partials/bottomSec.ejs'); %>

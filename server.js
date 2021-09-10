@@ -42,7 +42,7 @@ app.use("/clients", require("./routes/clients"));
 app.use("/certification", require("./routes/certification"));
 app.use("/awards", require("./routes/awards"));
 app.use("/current", require("./routes/current"));
-
+app.use("/services", require("./routes/services"));
 
 const port = process.env.PORT || 5000;
 app.listen(port, () => {
