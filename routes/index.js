@@ -3,8 +3,10 @@ const router = express.Router();
 
 router.get("/", async (req, res) => {
   try {
+    let active = true;
     res.render("homepage", {
       layout: "layouts/layout",
+      active,
     });
   } catch (error) {
     console.log(error);

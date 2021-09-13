@@ -57,6 +57,23 @@ h6 {
   color: rgb(38, 38, 38) !important;
 }
 
+.navbar a:active {
+  color: #4abdac !important;
+}
+
+.navbar a:hover {
+  border-bottom: 2px solid #4abdac;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+a.isAc {
+  color: #4abdac !important;
+}
+
 /* off canvas  */
 .uk-offcanvas-bar {
   background-color: #4abdac !important;
@@ -333,6 +350,10 @@ h6 {
 
 .uk-card-contact-form {
   background-color: #efefef58 !important;
+}
+
+.homepage-card {
+  margin: 20px 0px;
 }
 
 .homepage-card .uk-card-body {
