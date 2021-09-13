@@ -49,9 +49,17 @@ h6 {
   -webkit-tap-highlight-color: transparent;
 }
 
+.navbar {
+  background-color: #dfdce3 !important;
+}
+
+.navbar a {
+  color: rgb(38, 38, 38) !important;
+}
+
 /* off canvas  */
 .uk-offcanvas-bar {
-  background-color: rgb(123, 123, 123) !important;
+  background-color: #4abdac !important;
   text-align: center;
   justify-content: center;
 }
@@ -68,6 +76,14 @@ h6 {
   display: none;
 }
 
+.img-detail-section {
+  height: 150px;
+  width: 150px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
 .logo-img {
   width: 50px;
   height: 50px;
@@ -79,7 +95,11 @@ h6 {
 }
 
 .uk-section-secondary-light {
-  background-color: rgb(56, 56, 56);
+  background-color: #4abdac;
+}
+
+.uk-section-secondary-light p {
+  color: white;
 }
 
 .uk-section {
@@ -141,18 +161,57 @@ h6 {
   object-fit: cover;
 }
 
+.uk-section-homepagedetails {
+  background-color: #dfdce3;
+}
+
+.uk-section-homepagedetails p {
+  color: #000000 !important;
+}
+
+.knowmore {
+  background-color: #fc4a1a !important;
+  color: white !important;
+}
+
+.uk-button-primary,
+.uk-button-default {
+  background-color: #fc4a1a !important;
+  border: none !important;
+  border-radius: 5px !important;
+  -webkit-border-radius: 5px !important;
+  -moz-border-radius: 5px !important;
+  -ms-border-radius: 5px !important;
+  -o-border-radius: 5px !important;
+}
+
+.uk-button-primary:hover {
+  background-color: #ca3a12 !important;
+  border: none !important;
+}
+
+.uk-button-default:hover {
+  background-color: #ca3a12 !important;
+  border: none !important;
+}
+
 /* about-us section */
 
 .about-us {
-  min-height: 100vh;
-  padding: 80px 20px !important;
-  border-bottom: 20px solid rgb(163, 26, 26);
+  min-height: fit-content;
+  padding: 80px 60px !important;
+  border-bottom: 20px solid #dfdce3;
 }
 
 .about-us h1 {
   font-size: 65px;
   line-height: 70px;
   margin-top: 80px;
+}
+
+.about-section-dark {
+  background-color: #f7b733;
+  color: white !important;
 }
 
 /* clients section */
@@ -172,6 +231,12 @@ h6 {
 
 .uk-card-clients {
   margin: 50px 40px 50px 40px;
+  border: 5px solid #dfdce3;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 
 /* certificates sectiom */
@@ -188,6 +253,7 @@ h6 {
   background-size: cover;
   object-fit: cover;
 }
+
 .certificate-card .uk-card-footer {
   height: 120px;
 }
@@ -236,10 +302,17 @@ h6 {
   font-size: 85px !important;
 }
 
+.contact-form-section {
+  background-color: #f7b733;
+}
+
 .contact-form-section h1 {
   font-size: 65px;
   line-height: 70px;
   margin-top: 80px;
+}
+.uk-card-contact-form {
+  background-color: #efefef !important;
 }
 
 .contact-form-section .contact-form-card {
@@ -258,6 +331,10 @@ h6 {
   -o-border-radius: 5px;
 }
 
+.uk-card-contact-form {
+  background-color: #efefef58 !important;
+}
+
 .homepage-card .uk-card-body {
   height: 300px;
 }
@@ -271,7 +348,8 @@ h6 {
 }
 
 .uk-card-contact {
-  border-bottom: 4px solid rgb(20, 191, 54);
+  border: 5px solid #dfdce3;
+  background-color: #efefef;
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -279,7 +357,7 @@ h6 {
   -o-border-radius: 10px;
 }
 .icons-footer span {
-  color: rgb(223, 153, 25);
+  color: #f7b733;
 }
 
 .useful-links ul li a {
@@ -348,6 +426,12 @@ footer {
     font-size: 35px;
     line-height: 40px;
     margin-top: 80px;
+  }
+
+  .about-us {
+    min-height: fit-content;
+    padding: 80px 20px !important;
+    border-bottom: 20px solid #dfdce3;
   }
 
   .contactus img {
