@@ -50,27 +50,19 @@ h6 {
 }
 
 .navbar {
-  background-color: #dfdce3 !important;
+  background-color: #ffffff !important;
+  border: none;
 }
 
 .navbar a {
   color: rgb(38, 38, 38) !important;
 }
 
-.navbar a:active {
+.navbar a:hover {
   color: #4abdac !important;
 }
 
-.navbar a:hover {
-  border-bottom: 2px solid #4abdac;
-  border-radius: 4px;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -ms-border-radius: 4px;
-  -o-border-radius: 4px;
-}
-
-a.isAc {
+.navbar a:active {
   color: #4abdac !important;
 }
 
@@ -83,8 +75,12 @@ a.isAc {
 
 .uk-offcanvas-bar li a {
   color: rgb(255, 255, 255) !important;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 500;
+}
+
+.uk-accordion-content a {
+  font-size: 15px !important;
 }
 
 /* end off canvas */
@@ -159,6 +155,10 @@ a.isAc {
   margin-top: 4px;
 }
 
+.email-icon {
+  color: red !important;
+}
+
 /* what we offer */
 .what-we-offer h1 {
   font-size: 65px;
@@ -182,8 +182,29 @@ a.isAc {
   background-color: #dfdce3;
 }
 
-.uk-section-homepagedetails p {
+.uk-section-homepagedetails p,
+h1 {
   color: #000000 !important;
+}
+
+.uk-section-needhelp {
+  background-color: #dfdce3;
+  padding: 40px 0px !important;
+}
+
+.uk-section-needhelp h1 {
+  margin: 10px !important;
+  font-size: 45px;
+}
+
+.uk-section-needhelp a {
+  font-size: 20px;
+  padding: 5px 2px;
+}
+
+.knowmore-container {
+  align-items: center !important;
+  justify-content: center !important;
 }
 
 .knowmore {
@@ -228,6 +249,11 @@ a.isAc {
 
 .about-section-dark {
   background-color: #f7b733;
+  color: white !important;
+}
+
+.about-section-dark h1 {
+  /* background-color: #f7b733; */
   color: white !important;
 }
 
@@ -301,12 +327,50 @@ a.isAc {
   -o-border-radius: 5px !important;
 }
 
+.uk-card-homepage {
+  border-radius: 10px !important;
+  -webkit-border-radius: 10px !important;
+  -moz-border-radius: 10px !important;
+  -ms-border-radius: 10px !important;
+  -o-border-radius: 10px !important;
+}
+
 .pageimg img {
   width: 100%;
   height: 250px;
   background-size: cover;
   object-fit: cover;
+  border-radius: 10px !important;
+  -webkit-border-radius: 10px !important;
+  -moz-border-radius: 10px !important;
+  -ms-border-radius: 10px !important;
+  -o-border-radius: 10px !important;
 }
+
+.uk-section-states .uk-grid-small {
+  background-color: black !important;
+}
+
+.stateimg img {
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  object-fit: cover;
+  filter: brightness(0.5);
+  -webkit-filter: brightness(0.5);
+}
+
+.pos-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white !important;
+  font-size: 35px;
+  font-weight: 600;
+  text-align: center;
+}
+
 .contactus img {
   height: 500px;
   background-size: cover;
@@ -327,6 +391,7 @@ a.isAc {
   font-size: 65px;
   line-height: 70px;
   margin-top: 80px;
+  color: white !important;
 }
 .uk-card-contact-form {
   background-color: #efefef !important;
@@ -490,5 +555,10 @@ footer {
     font-size: 35px;
     line-height: 40px;
     margin-top: 80px;
+  }
+
+  .uk-section-needhelp h1 {
+    /* margin: 10px !important; */
+    font-size: 35px;
   }
 }

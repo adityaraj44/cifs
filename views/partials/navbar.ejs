@@ -6,7 +6,98 @@
   <div class="uk-navbar-right">
     <ul class="uk-navbar-nav">
       <li class="navs"><a href="/" class="noSelect">Home</a></li>
-      <li class="navs"><a href="/aboutus" class="noSelect">About Us</a></li>
+      <!-- <li class="navs"><a href="/aboutus" class="noSelect">About Us</a></li> -->
+      <li class="navs">
+        <a href="#" class="noSelect">About Us</a>
+        <div class="uk-navbar-dropdown uk-navbar-dropdown-width-4">
+          <div class="uk-navbar-dropdown-grid uk-child-width-1-2" uk-grid>
+            <div>
+              <ul class="uk-nav uk-navbar-dropdown-nav">
+                <li class="uk-active"><a href="/aboutus">WHO WE ARE</a></li>
+              </ul>
+            </div>
+            <div>
+              <ul class="uk-nav uk-navbar-dropdown-nav">
+                <li class="uk-active"><a href="/aboutus">OUR MISSION</a></li>
+              </ul>
+            </div>
+            <div>
+              <ul class="uk-nav uk-navbar-dropdown-nav">
+                <li class="uk-active"><a href="/aboutus">OUR VISION</a></li>
+              </ul>
+            </div>
+            <div>
+              <ul class="uk-nav uk-navbar-dropdown-nav">
+                <li class="uk-active"><a href="/aboutus">WHAT WE ASSURE</a></li>
+              </ul>
+            </div>
+            <div>
+              <ul class="uk-nav uk-navbar-dropdown-nav">
+                <li class="uk-active">
+                  <a href="/aboutus">WORK EXPERIENCE</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="navs uk-text-uppercase">
+        <a href="#" class="noSelect">SERVICES</a>
+        <div class="uk-navbar-dropdown uk-navbar-dropdown-width-4">
+          <div class="uk-navbar-dropdown-grid uk-child-width-1-2" uk-grid>
+            <div>
+              <ul class="uk-nav uk-navbar-dropdown-nav">
+                <li class="uk-active">
+                  <a href="/services/securityandmanpower"
+                    >Security & Man Power</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div>
+              <ul class="uk-nav uk-navbar-dropdown-nav">
+                <li class="uk-active">
+                  <a href="/services/atmsiteconstruction"
+                    >ATM Site Construction</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div>
+              <ul class="uk-nav uk-navbar-dropdown-nav">
+                <li class="uk-active">
+                  <a href="/services/tis">Total Infrastructure</a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <ul class="uk-nav uk-navbar-dropdown-nav">
+                <li class="uk-active">
+                  <a href="/services/atmshifting">ATM Shifting & Dismantling</a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <ul class="uk-nav uk-navbar-dropdown-nav">
+                <li class="uk-active">
+                  <a href="/services/refurbishmentandremodeling"
+                    >Refurbishment & Remodeling</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div>
+              <ul class="uk-nav uk-navbar-dropdown-nav">
+                <li class="uk-active">
+                  <a href="/services/srmworkandhousekeeping"
+                    >SRM Work & Housekeeping</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </li>
       <li class="navs"><a href="/clients" class="noSelect">Clients</a></li>
       <li class="navs">
         <a href="/certification" class="noSelect">Certification</a>
@@ -51,7 +142,15 @@
     uk-close
   ></button>
   <div class="uk-offcanvas-bar uk-flex uk-flex-row text-center">
-    <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
+    <ul
+      class="
+        uk-nav
+        uk-nav-primary
+        uk-nav-center
+        uk-margin-auto-vertical
+        uk-list-divider
+      "
+    >
       <li>
         <img src="/img/cisf.png" height="100px" width="100px" alt="logo" />
       </li>
@@ -61,12 +160,82 @@
           ><span class="noSelect"></span>HOME</a
         >
       </li>
-      <li>
+      <!-- <li>
         <a href="/aboutus" class="uk-button-text noSelect"
           ><span class="noSelect"></span>ABOUT US</a
         >
-      </li>
-
+      </li> -->
+      <ul uk-accordion="multiple: true">
+        <li>
+          <a class="uk-accordion-title" href="#">ABOUT US</a>
+          <div class="uk-accordion-content">
+            <ul class="uk-list uk-list-divider">
+              <li>
+                <a href="/aboutus" class="uk-button-text">WHO WE ARE</a>
+              </li>
+              <li>
+                <a href="/aboutus" class="uk-button-text">OUR MISSION</a>
+              </li>
+              <li>
+                <a href="/aboutus" class="uk-button-text">OUR VISION</a>
+              </li>
+              <li>
+                <a href="/aboutus" class="uk-button-text">WHAT WE ASSURE</a>
+              </li>
+              <li>
+                <a href="/aboutus" class="uk-button-text">WORK EXPERIENCE</a>
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+      <ul uk-accordion="multiple: true">
+        <li>
+          <a class="uk-accordion-title" href="#">SERVICES</a>
+          <div class="uk-accordion-content">
+            <ul class="uk-list uk-list-divider">
+              <li>
+                <a
+                  href="/services/securityandmanpower"
+                  class="uk-button uk-button-text"
+                  >Security & Man Power
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/services/atmsiteconstruction"
+                  class="uk-button uk-button-text"
+                  >ATM Site Construction</a
+                >
+              </li>
+              <li>
+                <a href="/services/tis" class="uk-button uk-button-text"
+                  >Total Infrastructure</a
+                >
+              </li>
+              <li>
+                <a href="/services/atmshifting" class="uk-button uk-button-text"
+                  >ATM Shifting & Dismantling
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/services/refurbishmentandremodeling"
+                  class="uk-button uk-button-text"
+                  >Refurbishment & Remodeling
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/services/srmworkandhousekeeping"
+                  class="uk-button uk-button-text"
+                  >SRM Work & Housekeeping
+                </a>
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ul>
       <li>
         <a href="/clients" class="uk-button-text noSelect"
           ><span class="noSelect"></span>CLIENTS</a
