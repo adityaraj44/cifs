@@ -103,6 +103,17 @@ h6 {
   margin: 15px;
 }
 
+.mail {
+  color: #e23939;
+}
+.call {
+  color: #4a5be1;
+}
+
+.location {
+  color: rgb(43, 169, 43) !important;
+}
+
 .uk-section-black {
   background-color: black;
 }
@@ -381,6 +392,10 @@ h1 {
 
 .contactus h2 {
   font-size: 85px !important;
+}
+
+.contact-form-card {
+  margin: auto;
 }
 
 .contact-form-section {

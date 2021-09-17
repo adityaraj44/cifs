@@ -8,9 +8,21 @@
   >
     <ul class="uk-slideshow-items">
       <li>
-        <img src="/img/contactus.jpg" alt="" uk-cover />
+        <video
+          src="/img/vid1.mp4"
+          loop
+          muted
+          playsinline
+          uk-video="autoplay: inview"
+        ></video>
         <div class="uk-position-center uk-position-small uk-text-center">
           <h2 uk-slideshow-parallax="y: -50,0,0; opacity: 1,1,0">CONTACT US</h2>
+        </div>
+      </li>
+      <li>
+        <img src="/img/contactus.jpg" alt="" uk-cover />
+        <div class="uk-position-center uk-position-small uk-text-center">
+          <!-- <h2 uk-slideshow-parallax="y: -50,0,0; opacity: 1,1,0">CONTACT US</h2> -->
         </div>
       </li>
     </ul>
@@ -53,7 +65,7 @@
           <div class="uk-card-body uk-text-center">
             <h4 class="uk-card-title uk-text-center">EMAIL US</h4>
             <p>
-              <span uk-icon="icon: mail; ratio: 2"></span>
+              <span uk-icon="icon: mail; ratio: 2" class="mail"></span>
             </p>
             <a
               href="mailto:info@cifsservices.com "
@@ -80,7 +92,7 @@
           <div class="uk-card-body uk-text-center">
             <h4 class="uk-card-title uk-text-center">CALL US</h4>
             <p>
-              <span uk-icon="icon: receiver; ratio: 2"></span>
+              <span uk-icon="icon: receiver; ratio: 2" class="call"></span>
             </p>
             <br />
 
@@ -103,7 +115,7 @@
           <div class="uk-card-body uk-text-center">
             <h4 class="uk-card-title uk-text-center">HEAD OFFICE</h4>
             <p>
-              <span uk-icon="icon: location; ratio: 2"></span>
+              <span uk-icon="icon: location; ratio: 2" class="location"></span>
             </p>
             <br />
 
@@ -189,8 +201,8 @@
     <hr />
     <div
       class="
-        uk-child-width-1-1
-        uk-child-width-1-1@s
+        uk-child-width-1-2
+        uk-child-width-1-2@s
         uk-grid-small
         uk-margin-large-top
         uk-margin-large-bottom
@@ -203,7 +215,7 @@
             <form action="">
               <div class="uk-form-stacked">
                 <div class="uk-margin-small">
-                  <div class="uk-form-control uk-margin-medium-top">
+                  <div class="uk-form-control uk-margin-small-top">
                     <input
                       required
                       type="text"
@@ -213,7 +225,7 @@
                       class="uk-input uk-form-large noSelect"
                     />
                   </div>
-                  <div class="uk-form-control uk-margin-medium-top">
+                  <div class="uk-form-control uk-margin-small-top">
                     <input
                       required
                       type="email"
@@ -224,7 +236,7 @@
                       class="uk-input uk-form-large noSelect"
                     />
                   </div>
-                  <div class="uk-form-control uk-margin-medium-top">
+                  <div class="uk-form-control uk-margin-small-top">
                     <input
                       required
                       type="url"
@@ -235,18 +247,18 @@
                       class="uk-input uk-form-large noSelect"
                     />
                   </div>
-                  <div class="uk-form-control uk-margin-medium-top">
+                  <div class="uk-form-control uk-margin-small-top">
                     <textarea
                       required
                       name="message"
                       id="message"
                       class="uk-textarea"
                       placeholder="Your message*"
-                      rows="8"
+                      rows="4"
                     ></textarea>
                   </div>
 
-                  <div class="uk-form-control uk-margin-medium-top">
+                  <div class="uk-form-control uk-margin-small-top">
                     <button
                       type="submit"
                       class="uk-button uk-button-primary noSelect uk-width-1-1"
